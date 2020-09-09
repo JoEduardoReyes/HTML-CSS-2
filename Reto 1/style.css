@@ -1,0 +1,14 @@
+body {
+  background-color: #321d41;
+  color: white;
+}
+
+ul li {
+  color: #fdf3bc;
+}
+
+ol li a {
+  text-decoration: none;
+  list-style: none;
+  color: azure;
+}
