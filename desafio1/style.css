@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  border: red solid 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  display: inline-block;
+  margin: auto 0;
+}
+
+figure img {
+  border: 1px solid red;
+  height: 50px;
+  display: inherit;
+  margin: auto 0;
+}
+
+.nav-item {
+  display: inline-block;
+}
