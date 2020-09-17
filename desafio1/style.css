@@ -12,14 +12,12 @@ body {
 header {
   height: 60px;
   width: 100%;
-  border: red solid 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .image-container img {
-  border: 1px solid red;
   height: 50px;
   display: inherit;
   margin: auto 0;
@@ -42,10 +40,10 @@ main {
 }
 
 .profiles {
+  background-color: midnightblue;
   width: 25%;
   justify-items: center;
   margin: 0;
-  border: 1px solid red;
 }
 
 .profiles figure img {
@@ -58,11 +56,11 @@ main {
 
 .main-info {
   width: 75%;
-  border: 1px solid red;
   height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  background-color: cadetblue;
 }
 
 .info-container {
@@ -74,10 +72,21 @@ main {
 
 .info-container figure {
   margin: 20px;
+  position: relative;
+  margin-right: -40px;
 }
 
 .info-container figure img {
   width: 80px;
+}
+
+.info-container p {
+  background-color: white;
+  height: 120px;
+  padding: 30px 50px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
 }
 
 /* footer */
