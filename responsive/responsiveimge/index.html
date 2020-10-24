@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+  </head>
+  <body>
+    <main>
+      <picture>
+        <source media="(min-width: 800px)" srcset="./imgs/large.jpg" />
+        <source media="(min-width: 600px)" srcset="./imgs/medium.jpg" />
+        <img src="./imgs/small.jpg" alt="Soy un ejemplo" />
+      </picture>
+    </main>
+  </body>
+</html>
